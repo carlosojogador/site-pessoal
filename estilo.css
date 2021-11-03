@@ -1,0 +1,69 @@
+* {
+	margin:0;
+	padding: 0;
+}
+
+
+#topo{
+    background-image: url(baner.jpg);
+	width: 1000px;
+	height: 300px;
+}
+
+#tudo {
+	width: 1000px;
+	border: 1px solid #555;
+	margin: 40px auto;
+}
+a:link{
+	color:#696;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #C93;
+	text-decoration: underline;
+}
+
+#menu {  
+   background-color: #F00;
+	width: 1000px;
+	height: 60px;
+}
+
+#menu ul {
+	list-style-type: none;
+	text-transform: uppercase;
+}
+
+#menu ul li {
+	float: left;
+}
+
+#menu ul li a {
+  
+	font-size: 20px;
+	background-color:#F00;
+	width: 229px;
+	height: 50px;
+
+	display: block;
+	text-align: center;
+	padding: 4px;
+	color: #FFF;
+}
+
+#menu ul li a:hover{
+	color: #F00;
+	background-color:#EEE;
+	text-shadow: 1px 1px 1px #555;
+}
+#rodape{
+	width: 1000px;
+	height: 50px;
+	background-color: rgb(42, 199, 112);
+}
+#imge img{
+	width: 300px;
+	height: 300px;
+}
